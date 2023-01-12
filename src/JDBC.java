@@ -67,11 +67,11 @@ public class JDBC {
     }
 
 //    search data from table
-    public void searchByQuestion(Connection conn, String table_name, String question) {
+    public void getQuestionById(Connection conn, String table_name, int question_id) {
         Statement statement;
         ResultSet rs = null;
         try {
-            String query = String.format("select * from %s where question= '%s'", table_name, question);
+            String query = String.format("select * from %s where question_id= '%s'", table_name, question_id);
             statement = conn.createStatement();
             rs = statement.executeQuery(query);
             while (rs.next()) {

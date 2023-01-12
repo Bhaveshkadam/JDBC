@@ -11,7 +11,7 @@ public class Main {
         db.insertQuestion(conn,"Question_Answer","what is the year of independence day?","1947");
         db.insertQuestion(conn,"Question_Answer","Who among the following was the Prime Minister of Britain at the time of Independence?","Clement Attlee");
         db.readQuestion(conn, "Question_Answer");
-        db.searchByQuestion(conn, "Question_Answer", "what is the year of independence day?");
+        db.getQuestionById(conn, "Question_Answer", 1);
 
     }
 
