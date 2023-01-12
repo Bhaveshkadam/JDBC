@@ -48,11 +48,11 @@ public class JDBC {
     }
 
 //    read all data from table
-    public void readQuestion(Connection conn, String table_name) {
+    public void readQuestion(Connection conn, int count) {
         Statement statement;
         ResultSet rs = null;
         try {
-            String query = String.format("select * from %s", table_name);
+            String query = String.format("select * from Question_Answer LIMIT %s", count);
             statement = conn.createStatement();
             rs = statement.executeQuery(query);
             while (rs.next()) {

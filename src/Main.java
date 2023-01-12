@@ -10,7 +10,7 @@ public class Main {
         db.createTable(conn,"Question_Answer");
         db.insertQuestion(conn,"Question_Answer","what is the year of independence day?","1947");
         db.insertQuestion(conn,"Question_Answer","Who among the following was the Prime Minister of Britain at the time of Independence?","Clement Attlee");
-        db.readQuestion(conn, "Question_Answer");
+        db.readQuestion(conn, 5);
         db.getQuestionById(conn, "Question_Answer", 1);
 
     }
