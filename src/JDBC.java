@@ -1,6 +1,8 @@
 import java.io.*;
 import java.sql.*;
 import java.io.Reader;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class JDBC {
@@ -103,8 +105,30 @@ public class JDBC {
             System.out.println(e);
         }
     }
-    // TODO : Get count of all the questions.
+    // TODO : Get count of all the questions.z
     // TODO : Create a function to seed question and answer
     // TODO : Think about reading question and answer from CSV file
+
+
+//    static Map<String, String> questionAnswer = new HashMap<>();
+//
+//    static {
+//        questionAnswer.put("what is the year of independence day?", "1947");
+//        questionAnswer.put("What is your name?", "bhavesh");
+//    }
+//
+//    static boolean check(String s1, String s2) {
+//        if (s1 == null || s2 == null) {
+//            return false;
+//        }
+//
+//        String ans = questionAnswer.get(s1);
+//
+//        if (ans == null){
+//            return false;
+//        }
+//
+//        return s2.contains(ans);
+//    }
 
 }
