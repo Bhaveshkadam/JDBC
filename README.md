@@ -44,3 +44,6 @@ Open project >> Right click on project root >> Open module settings >> Click on 
 https://github.com/Bhaveshkadam/JDBC/blob/main/src/video/video.webm
 
 ## read csv file
+```
+ BufferedReader br = new BufferedReader(new FileReader("file_path"));
+```
