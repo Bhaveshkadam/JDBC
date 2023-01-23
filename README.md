@@ -47,3 +47,4 @@ https://github.com/Bhaveshkadam/JDBC/blob/main/src/video/video.webm
 ```
  BufferedReader br = new BufferedReader(new FileReader("file_path"));
 ```
+- Java BufferedReader class is used to read the text from a character-based input stream. It can be used to read data line by line by **readLine()** method. 
