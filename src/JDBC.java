@@ -113,7 +113,7 @@ public class JDBC {
             while (rs.next()) {
                 System.out.print(rs.getString("question_id") + " ");
                 System.out.println(rs.getString("question") + " ");
-                System.out.println("plases enter the answer");
+                System.out.println("please enter the answer :");
                 String answer = scanner.nextLine();
                 System.out.println(checkAnswer(rs.getString("answer"), answer));
                 System.out.println(rs.getString("answer") + " ");

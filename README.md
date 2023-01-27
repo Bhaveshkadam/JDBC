@@ -1,7 +1,7 @@
-# JDBC
+# Quiz application with the help of **jdbc** connection
 connect java application to database using jdbc
 
-## Create JDBC connection and perform Insert, get and search opration
+## Create JDBC connection and perform Insert, get and search operation
 
 ****
 * **Here, I used Postgres for the JDBC connection.**
